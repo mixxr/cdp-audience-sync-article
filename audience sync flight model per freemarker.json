@@ -1,0 +1,1758 @@
+{
+	"enabled": true,
+	"context": {
+		"guest": {
+			"ref": "398d5f30-8a2a-480a-9c14-ea3296618972",
+			"title": "Mr",
+			"firstname": "Joe",
+			"lastname": "Doe",
+			"address": {
+				"street": "Ashford House,Tara Street,Dublin 2",
+				"city": "Dublin",
+				"country": "IE"
+			},
+			"mobile": "+353123456",
+			"phone": "+353123456",
+			"passportNo": "IR123456",
+			"language": "EN",
+			"identity": "customer",
+			"dateOfBirth": 157766400000,
+			"gender": "male",
+			"email": "test@boxever.com",
+			"firstSeen": 1670236877887,
+			"lastSeen": 1670247679774,
+			"created": 1670236877887,
+			"updated": 1670247679781,
+			"searches": [
+				{
+					"origin": "FRA",
+					"destination": "WAW",
+					"startDate": 1421280000000,
+					"endDate": 1421366400000,
+					"numberOfAdults": 1,
+					"numberOfChildren": 0,
+					"numberOfInfants": 0,
+					"fareClass": "Economy",
+					"type": "OW",
+					"created": 1670236893216,
+					"currency": "EUR",
+					"attributes": {
+						"f_class": "Economy",
+						"infants": "0",
+						"origin": "FRA",
+						"adults": "1",
+						"destination": "WAW",
+						"start": "2015-01-15T00:00",
+						"language": "EN",
+						"product_name": "FRA|WAW",
+						"createdAt": "2022-12-05T10:41:33.216Z",
+						"product_type": "FLIGHT",
+						"children": "0",
+						"flight_type": "OW",
+						"currency": "EUR",
+						"end": "2015-01-16T00:00",
+						"_bx_version": "1.2",
+						"page": "search",
+						"fare_family": "JSS",
+						"youths": "0",
+						"students": "0",
+						"passengers": "1"
+					},
+					"arbitraryData": {
+						"values": {
+							"f_class": "Economy",
+							"infants": "0",
+							"origin": "FRA",
+							"adults": "1",
+							"destination": "WAW",
+							"start": "2015-01-15T00:00",
+							"language": "EN",
+							"product_name": "FRA|WAW",
+							"createdAt": "2022-12-05T10:41:33.216Z",
+							"product_type": "FLIGHT",
+							"children": "0",
+							"flight_type": "OW",
+							"currency": "EUR",
+							"end": "2015-01-16T00:00",
+							"_bx_version": "1.2",
+							"page": "search",
+							"fare_family": "JSS",
+							"youths": "0",
+							"students": "0",
+							"passengers": "1"
+						}
+					}
+				}
+			],
+			"sessions": [
+				{
+					"index": 0,
+					"ref": "d337c44a-ab77-55d4-99c5-904dd50074a4",
+					"type": "EMAIL",
+					"status": "OPEN",
+					"pos": {
+						"language": "en"
+					},
+					"duration": 0,
+					"channel": "EMAIL",
+					"start": 1670247681867,
+					"end": 1670247681867,
+					"totalViews": 0,
+					"totalSearches": 0,
+					"totalSelects": 0,
+					"totalAdds": 0,
+					"totalPayments": 0,
+					"totalConfirms": 0,
+					"totalCheckouts": 0,
+					"guestIdentified": false,
+					"interactions": [
+						{
+							"type": "TRACKING",
+							"date": 1670247681858
+						}
+					],
+					"searches": [],
+					"attributes": {
+						"browserRef": null
+					},
+					"arbitraryData": {
+						"values": {
+							"browserRef": null
+						}
+					},
+					"abandoned": false,
+					"open": true
+				},
+				{
+					"index": 1,
+					"ref": "4a3b0f9a-9782-592a-9f13-b89f3bddd5c3",
+					"type": "EMAIL",
+					"status": "OPEN",
+					"pos": {
+						"language": "en"
+					},
+					"duration": 0,
+					"channel": "EMAIL",
+					"start": 1670247681795,
+					"end": 1670247681795,
+					"totalViews": 0,
+					"totalSearches": 0,
+					"totalSelects": 0,
+					"totalAdds": 0,
+					"totalPayments": 0,
+					"totalConfirms": 0,
+					"totalCheckouts": 0,
+					"guestIdentified": false,
+					"interactions": [
+						{
+							"type": "TRACKING",
+							"date": 1670247681713
+						}
+					],
+					"searches": [],
+					"attributes": {
+						"browserRef": null
+					},
+					"arbitraryData": {
+						"values": {
+							"browserRef": null
+						}
+					},
+					"abandoned": false,
+					"open": true
+				},
+				{
+					"index": 2,
+					"ref": "61326a23-4dce-5807-9adc-2d32d9b0a320",
+					"type": "EMAIL",
+					"status": "OPEN",
+					"pos": {
+						"language": "en"
+					},
+					"duration": 0,
+					"channel": "EMAIL",
+					"start": 1670247681476,
+					"end": 1670247681476,
+					"totalViews": 0,
+					"totalSearches": 0,
+					"totalSelects": 0,
+					"totalAdds": 0,
+					"totalPayments": 0,
+					"totalConfirms": 0,
+					"totalCheckouts": 0,
+					"guestIdentified": false,
+					"interactions": [
+						{
+							"type": "TRACKING",
+							"date": 1670247681278
+						}
+					],
+					"searches": [],
+					"attributes": {
+						"browserRef": null
+					},
+					"arbitraryData": {
+						"values": {
+							"browserRef": null
+						}
+					},
+					"abandoned": false,
+					"open": true
+				},
+				{
+					"index": 3,
+					"ref": "eaf45959-4256-5721-b1e9-d3f688b39b37",
+					"type": "EMAIL",
+					"status": "OPEN",
+					"pos": {
+						"language": "en"
+					},
+					"duration": 0,
+					"channel": "EMAIL",
+					"start": 1670247681416,
+					"end": 1670247681416,
+					"totalViews": 0,
+					"totalSearches": 0,
+					"totalSelects": 0,
+					"totalAdds": 0,
+					"totalPayments": 0,
+					"totalConfirms": 0,
+					"totalCheckouts": 0,
+					"guestIdentified": false,
+					"interactions": [
+						{
+							"type": "TRACKING",
+							"date": 1670247681043
+						}
+					],
+					"searches": [],
+					"attributes": {
+						"browserRef": null
+					},
+					"arbitraryData": {
+						"values": {
+							"browserRef": null
+						}
+					},
+					"abandoned": false,
+					"open": true
+				},
+				{
+					"index": 4,
+					"ref": "8f682fc0-f872-5f9d-a0a9-9eb575945b66",
+					"type": "EMAIL",
+					"status": "OPEN",
+					"pos": {
+						"language": "en"
+					},
+					"duration": 0,
+					"channel": "EMAIL",
+					"start": 1670247681401,
+					"end": 1670247681401,
+					"totalViews": 0,
+					"totalSearches": 0,
+					"totalSelects": 0,
+					"totalAdds": 0,
+					"totalPayments": 0,
+					"totalConfirms": 0,
+					"totalCheckouts": 0,
+					"guestIdentified": false,
+					"interactions": [
+						{
+							"type": "TRACKING",
+							"date": 1670247681252
+						}
+					],
+					"searches": [],
+					"attributes": {
+						"browserRef": null
+					},
+					"arbitraryData": {
+						"values": {
+							"browserRef": null
+						}
+					},
+					"abandoned": false,
+					"open": true
+				}
+			],
+			"orders": [
+				{
+					"duration": 14400000,
+					"start": 1670496060000,
+					"end": 1670510460000,
+					"products": [
+						{
+							"ref": "c2b2dfe5-4669-4f42-b4c9-d46c51e69a67",
+							"name": "FRA to WAW",
+							"type": "FLIGHT",
+							"currency": "EUR",
+							"price": 0,
+							"language": "EN",
+							"sku": "FLIGHT",
+							"productId": "FLIGHT",
+							"subType": "RT",
+							"attributes": {
+								"passengers": "0",
+								"infants": "0",
+								"pax_type": "ADT",
+								"reference_id": "1284652",
+								"adults": "0",
+								"start": "2022-12-08T10:41",
+								"students": "0",
+								"youths": "0",
+								"valid": false,
+								"children": "0",
+								"flight_segment": [
+									{
+										"origin": {
+											"iata": "FRA",
+											"city": "Frankfurt",
+											"countryCode": "DE"
+										},
+										"destination": {
+											"iata": "WAW",
+											"city": "Warsaw",
+											"countryCode": "PL"
+										},
+										"segmentType": "DEPARTURE",
+										"departureTime": 1670496060000,
+										"arrivalTime": 1670510460000,
+										"fareClass": "Economy",
+										"carrier": "LH",
+										"attributes": {
+											"origin": "FRA",
+											"destination": "WAW",
+											"departure_date_time": "2022-12-08T10:41",
+											"arrival_date_time": "2022-12-08T14:41",
+											"flight_number": "123",
+											"carrier": "LH",
+											"f_class": "Economy"
+										},
+										"flightNumber": "123",
+										"flightClass": "Economy"
+									},
+									{
+										"origin": {
+											"iata": "WAW",
+											"city": "Warsaw",
+											"countryCode": "PL"
+										},
+										"destination": {
+											"iata": "FRA",
+											"city": "Frankfurt",
+											"countryCode": "DE"
+										},
+										"segmentType": "DEPARTURE",
+										"departureTime": 1670496060000,
+										"arrivalTime": 1670510460000,
+										"fareClass": "Economy",
+										"carrier": "LH",
+										"attributes": {
+											"origin": "WAW",
+											"destination": "FRA",
+											"departure_date_time": "2022-12-08T10:41",
+											"arrival_date_time": "2022-12-08T14:41",
+											"flight_number": "123",
+											"carrier": "LH",
+											"f_class": "Economy"
+										},
+										"flightNumber": "123",
+										"flightClass": "Economy"
+									}
+								],
+								"flight_type": "RT",
+								"end": "2022-12-08T14:41"
+							},
+							"productCatalog": [],
+							"origin": {
+								"iata": "FRA",
+								"city": "Frankfurt",
+								"countryCode": "DE"
+							},
+							"destination": {
+								"iata": "FRA",
+								"city": "Frankfurt",
+								"countryCode": "DE"
+							},
+							"adults": 0,
+							"children": 0,
+							"infants": 0,
+							"startDate": 1670496060000,
+							"endDate": 1670510460000,
+							"passengers": [],
+							"flightType": "RT",
+							"firstSegment": {
+								"origin": {
+									"iata": "FRA",
+									"city": "Frankfurt",
+									"countryCode": "DE"
+								},
+								"destination": {
+									"iata": "WAW",
+									"city": "Warsaw",
+									"countryCode": "PL"
+								},
+								"segmentType": "DEPARTURE",
+								"departureTime": 1670496060000,
+								"arrivalTime": 1670510460000,
+								"fareClass": "Economy",
+								"carrier": "LH",
+								"attributes": {
+									"origin": "FRA",
+									"destination": "WAW",
+									"departure_date_time": "2022-12-08T10:41",
+									"arrival_date_time": "2022-12-08T14:41",
+									"flight_number": "123",
+									"carrier": "LH",
+									"f_class": "Economy"
+								},
+								"flightNumber": "123",
+								"flightClass": "Economy"
+							},
+							"finalSegment": {
+								"origin": {
+									"iata": "WAW",
+									"city": "Warsaw",
+									"countryCode": "PL"
+								},
+								"destination": {
+									"iata": "FRA",
+									"city": "Frankfurt",
+									"countryCode": "DE"
+								},
+								"segmentType": "DEPARTURE",
+								"departureTime": 1670496060000,
+								"arrivalTime": 1670510460000,
+								"fareClass": "Economy",
+								"carrier": "LH",
+								"attributes": {
+									"origin": "WAW",
+									"destination": "FRA",
+									"departure_date_time": "2022-12-08T10:41",
+									"arrival_date_time": "2022-12-08T14:41",
+									"flight_number": "123",
+									"carrier": "LH",
+									"f_class": "Economy"
+								},
+								"flightNumber": "123",
+								"flightClass": "Economy"
+							},
+							"segments": [
+								{
+									"origin": {
+										"iata": "FRA",
+										"city": "Frankfurt",
+										"countryCode": "DE"
+									},
+									"destination": {
+										"iata": "WAW",
+										"city": "Warsaw",
+										"countryCode": "PL"
+									},
+									"segmentType": "DEPARTURE",
+									"departureTime": 1670496060000,
+									"arrivalTime": 1670510460000,
+									"fareClass": "Economy",
+									"carrier": "LH",
+									"attributes": {
+										"origin": "FRA",
+										"destination": "WAW",
+										"departure_date_time": "2022-12-08T10:41",
+										"arrival_date_time": "2022-12-08T14:41",
+										"flight_number": "123",
+										"carrier": "LH",
+										"f_class": "Economy"
+									},
+									"flightNumber": "123",
+									"flightClass": "Economy"
+								},
+								{
+									"origin": {
+										"iata": "WAW",
+										"city": "Warsaw",
+										"countryCode": "PL"
+									},
+									"destination": {
+										"iata": "FRA",
+										"city": "Frankfurt",
+										"countryCode": "DE"
+									},
+									"segmentType": "DEPARTURE",
+									"departureTime": 1670496060000,
+									"arrivalTime": 1670510460000,
+									"fareClass": "Economy",
+									"carrier": "LH",
+									"attributes": {
+										"origin": "WAW",
+										"destination": "FRA",
+										"departure_date_time": "2022-12-08T10:41",
+										"arrival_date_time": "2022-12-08T14:41",
+										"flight_number": "123",
+										"carrier": "LH",
+										"f_class": "Economy"
+									},
+									"flightNumber": "123",
+									"flightClass": "Economy"
+								}
+							],
+							"pointOfTurnaroundValid": false
+						}
+					],
+					"attributes": {},
+					"contact": {
+						"title": "Mr",
+						"firstName": "Joe",
+						"lastName": "Doe",
+						"email": "test@boxever.com",
+						"phoneNumber": "+353123456",
+						"guestRef": "398d5f30-8a2a-480a-9c14-ea3296618972"
+					},
+					"orderItems": [
+						{
+							"ref": "c2b2dfe5-4669-4f42-b4c9-d46c51e69a67",
+							"createdAt": 1670236918599,
+							"modifiedAt": 1670236918599,
+							"type": "FLIGHT",
+							"productId": "FLIGHT",
+							"price": 99,
+							"currencyCode": "EUR",
+							"referenceId": "1284652",
+							"status": "PURCHASED",
+							"language": "EN",
+							"name": "FRA to WAW",
+							"channel": "WEB",
+							"passengerTypeCode": "ADT",
+							"quantity": 1,
+							"flightType": "RT",
+							"transportSegments": [
+								{
+									"origin": {
+										"iata": "FRA",
+										"city": "Frankfurt",
+										"countryCode": "DE"
+									},
+									"destination": {
+										"iata": "WAW",
+										"city": "Warsaw",
+										"countryCode": "PL"
+									},
+									"departureTime": 1670496060000,
+									"arrivalTime": 1670510460000,
+									"fareClass": "Economy",
+									"carrier": "LH",
+									"attributes": {}
+								},
+								{
+									"origin": {
+										"iata": "WAW",
+										"city": "Warsaw",
+										"countryCode": "PL"
+									},
+									"destination": {
+										"iata": "FRA",
+										"city": "Frankfurt",
+										"countryCode": "DE"
+									},
+									"departureTime": 1670496060000,
+									"arrivalTime": 1670510460000,
+									"fareClass": "Economy",
+									"carrier": "LH",
+									"attributes": {}
+								}
+							]
+						}
+					],
+					"journey": {
+						"start": 1670496060000,
+						"end": 1670510460000,
+						"utcStart": 1670496060000,
+						"utcEnd": 1670510460000,
+						"type": "OW",
+						"origin": {
+							"code": "FRA",
+							"icao": "EDDF",
+							"name": "Frankfurt International",
+							"city": "Frankfurt",
+							"cityCode": "FRA",
+							"country": "Germany",
+							"countryCode": "DE",
+							"altitudeFeet": 364,
+							"timezone": "GMT"
+						},
+						"destination": {
+							"code": "WAW",
+							"icao": "EPWA",
+							"name": "Warsaw Frederic Chopin Airport",
+							"city": "Warsaw",
+							"cityCode": "WAW",
+							"country": "Poland",
+							"countryCode": "PL",
+							"altitudeFeet": 362,
+							"timezone": "GMT"
+						},
+						"duration": {
+							"minutes": 240,
+							"hours": 4,
+							"days": 0
+						},
+						"journeySegments": [
+							{
+								"origin": {
+									"code": "FRA",
+									"icao": "EDDF",
+									"name": "Frankfurt International",
+									"city": "Frankfurt",
+									"cityCode": "FRA",
+									"country": "Germany",
+									"countryCode": "DE",
+									"altitudeFeet": 364,
+									"timezone": "GMT"
+								},
+								"destination": {
+									"code": "WAW",
+									"icao": "EPWA",
+									"name": "Warsaw Frederic Chopin Airport",
+									"city": "Warsaw",
+									"cityCode": "WAW",
+									"country": "Poland",
+									"countryCode": "PL",
+									"altitudeFeet": 362,
+									"timezone": "GMT"
+								},
+								"start": 1670496060000,
+								"end": 1670510460000,
+								"utcStart": 1670496060000,
+								"utcEnd": 1670510460000,
+								"direction": "outbound",
+								"kilometers": 898,
+								"miles": 557,
+								"duration": {
+									"minutes": 240,
+									"hours": 4,
+									"days": 0
+								},
+								"flightNumber": "123",
+								"fareClass": "Economy",
+								"carrier": "LH",
+								"adults": 2,
+								"children": 0,
+								"infants": 0,
+								"infantsWithSeat": 0,
+								"unknownConsumers": 0,
+								"consumerTypeByItemId": {}
+							}
+						],
+						"firstSegment": {
+							"origin": {
+								"code": "FRA",
+								"icao": "EDDF",
+								"name": "Frankfurt International",
+								"city": "Frankfurt",
+								"cityCode": "FRA",
+								"country": "Germany",
+								"countryCode": "DE",
+								"altitudeFeet": 364,
+								"timezone": "GMT"
+							},
+							"destination": {
+								"code": "WAW",
+								"icao": "EPWA",
+								"name": "Warsaw Frederic Chopin Airport",
+								"city": "Warsaw",
+								"cityCode": "WAW",
+								"country": "Poland",
+								"countryCode": "PL",
+								"altitudeFeet": 362,
+								"timezone": "GMT"
+							},
+							"start": 1670496060000,
+							"end": 1670510460000,
+							"utcStart": 1670496060000,
+							"utcEnd": 1670510460000,
+							"direction": "outbound",
+							"kilometers": 898,
+							"miles": 557,
+							"duration": {
+								"minutes": 240,
+								"hours": 4,
+								"days": 0
+							},
+							"flightNumber": "123",
+							"fareClass": "Economy",
+							"carrier": "LH",
+							"adults": 2,
+							"children": 0,
+							"infants": 0,
+							"infantsWithSeat": 0,
+							"unknownConsumers": 0,
+							"consumerTypeByItemId": {}
+						},
+						"finalSegment": {
+							"origin": {
+								"code": "FRA",
+								"icao": "EDDF",
+								"name": "Frankfurt International",
+								"city": "Frankfurt",
+								"cityCode": "FRA",
+								"country": "Germany",
+								"countryCode": "DE",
+								"altitudeFeet": 364,
+								"timezone": "GMT"
+							},
+							"destination": {
+								"code": "WAW",
+								"icao": "EPWA",
+								"name": "Warsaw Frederic Chopin Airport",
+								"city": "Warsaw",
+								"cityCode": "WAW",
+								"country": "Poland",
+								"countryCode": "PL",
+								"altitudeFeet": 362,
+								"timezone": "GMT"
+							},
+							"start": 1670496060000,
+							"end": 1670510460000,
+							"utcStart": 1670496060000,
+							"utcEnd": 1670510460000,
+							"direction": "outbound",
+							"kilometers": 898,
+							"miles": 557,
+							"duration": {
+								"minutes": 240,
+								"hours": 4,
+								"days": 0
+							},
+							"flightNumber": "123",
+							"fareClass": "Economy",
+							"carrier": "LH",
+							"adults": 2,
+							"children": 0,
+							"infants": 0,
+							"infantsWithSeat": 0,
+							"unknownConsumers": 0,
+							"consumerTypeByItemId": {}
+						},
+						"counts": {
+							"numberOfConsumers": 2,
+							"numberOfAdults": 2,
+							"numberOfChildren": 0,
+							"numberOfInfants": 0,
+							"numberOfInfantsWithSeats": 0,
+							"numberOfDependentItems": 0,
+							"numberOfFlights": 1,
+							"numberOfUnknownTypeConsumers": 0
+						}
+					},
+					"channel": "WEB",
+					"currency": "EUR",
+					"value": 0,
+					"pos": {
+						"language": "en",
+						"name": "spinair.com",
+						"market": "Airline",
+						"brand": "SpinAir",
+						"timeoutInMinutes": 1
+					},
+					"created": 1670236918588,
+					"status": "PURCHASED",
+					"remoteRef": "1284652",
+					"dataExtensions": [],
+					"index": 0,
+					"finish": 1670510460000,
+					"empty": false
+				}
+			],
+			"segments": [],
+			"guestSubscriptions": [],
+			"guestIdentifiers": [
+				{
+					"provider": "mySpinAirId",
+					"id": "test@boxever.com"
+				}
+			],
+			"recentSearches": [
+				{
+					"type": "SEARCH",
+					"product": {
+						"name": "FRA|WAW",
+						"type": "FLIGHT",
+						"language": "EN",
+						"created": 1670262671450,
+						"subType": "OW",
+						"attributes": {
+							"f_class": "Economy",
+							"infants": "0",
+							"origin": "FRA",
+							"adults": "1",
+							"destination": "WAW",
+							"start": "2015-01-15T00:00",
+							"language": "EN",
+							"product_name": "FRA|WAW",
+							"createdAt": "2022-12-05T10:41:33.216Z",
+							"product_type": "FLIGHT",
+							"children": "0",
+							"flight_type": "OW",
+							"currency": "EUR",
+							"end": "2015-01-16T00:00",
+							"_bx_version": "1.2",
+							"page": "search",
+							"fare_family": "JSS",
+							"youths": "0",
+							"students": "0",
+							"passengers": "1"
+						},
+						"productCatalog": [],
+						"origin": {
+							"iata": "FRA",
+							"city": "Frankfurt",
+							"countryCode": "DE"
+						},
+						"destination": {
+							"iata": "WAW",
+							"city": "Warsaw",
+							"countryCode": "PL"
+						},
+						"adults": 1,
+						"children": 0,
+						"infants": 0,
+						"startDate": 1421280000000,
+						"endDate": 1421366400000,
+						"fareClass": "Economy",
+						"passengers": [],
+						"flightType": "OW",
+						"segments": [],
+						"pointOfTurnaroundValid": false
+					},
+					"date": 1670236893216
+				}
+			],
+			"dataExtensions": [
+				{
+					"ref": "44923878-0d36-5713-a306-7347d9594840",
+					"key": "default",
+					"name": "LastFiveSearches",
+					"createdAt": 1670262666514,
+					"modifiedAt": 1670262666514,
+					"values": {
+						"searches": [
+							{
+								"f_class": "Economy",
+								"infants": "0",
+								"origin": "FRA",
+								"adults": "1",
+								"destination": "WAW",
+								"start": "2015-01-15T00:00",
+								"language": "EN",
+								"product_name": "FRA|WAW",
+								"createdAt": "2022-12-05T10:41:33.216Z",
+								"product_type": "FLIGHT",
+								"children": "0",
+								"flight_type": "OW",
+								"currency": "EUR",
+								"end": "2015-01-16T00:00",
+								"_bx_version": "1.2",
+								"page": "search",
+								"fare_family": "JSS",
+								"youths": "0",
+								"students": "0",
+								"passengers": "1"
+							}
+						]
+					}
+				}
+			],
+			"attributes": {},
+			"trackedOffers": [],
+			"pageViews": [],
+			"fullName": "Mr Joe Doe"
+		},
+		"segment": {
+			"ref": "1655b5bb-9e5b-4d31-be99-1027b4b29e2c"
+		},
+		"clientKey": "pqsPERS3lw12v5a9rrHPW1c4hET73GxQ"
+	},
+	"batchFlowContext": {
+		"rulesInputContext": {
+			"guest": {
+				"ref": "398d5f30-8a2a-480a-9c14-ea3296618972",
+				"title": "Mr",
+				"firstname": "Joe",
+				"lastname": "Doe",
+				"address": {
+					"street": "Ashford House,Tara Street,Dublin 2",
+					"city": "Dublin",
+					"country": "IE"
+				},
+				"mobile": "+353123456",
+				"phone": "+353123456",
+				"passportNo": "IR123456",
+				"language": "EN",
+				"identity": "customer",
+				"dateOfBirth": 157766400000,
+				"gender": "male",
+				"email": "test@boxever.com",
+				"firstSeen": 1670236877887,
+				"lastSeen": 1670247679774,
+				"created": 1670236877887,
+				"updated": 1670247679781,
+				"searches": [
+					{
+						"origin": "FRA",
+						"destination": "WAW",
+						"startDate": 1421280000000,
+						"endDate": 1421366400000,
+						"numberOfAdults": 1,
+						"numberOfChildren": 0,
+						"numberOfInfants": 0,
+						"fareClass": "Economy",
+						"type": "OW",
+						"created": 1670236893216,
+						"currency": "EUR",
+						"attributes": {
+							"f_class": "Economy",
+							"infants": "0",
+							"origin": "FRA",
+							"adults": "1",
+							"destination": "WAW",
+							"start": "2015-01-15T00:00",
+							"language": "EN",
+							"product_name": "FRA|WAW",
+							"createdAt": "2022-12-05T10:41:33.216Z",
+							"product_type": "FLIGHT",
+							"children": "0",
+							"flight_type": "OW",
+							"currency": "EUR",
+							"end": "2015-01-16T00:00",
+							"_bx_version": "1.2",
+							"page": "search",
+							"fare_family": "JSS",
+							"youths": "0",
+							"students": "0",
+							"passengers": "1"
+						},
+						"arbitraryData": {
+							"values": {
+								"f_class": "Economy",
+								"infants": "0",
+								"origin": "FRA",
+								"adults": "1",
+								"destination": "WAW",
+								"start": "2015-01-15T00:00",
+								"language": "EN",
+								"product_name": "FRA|WAW",
+								"createdAt": "2022-12-05T10:41:33.216Z",
+								"product_type": "FLIGHT",
+								"children": "0",
+								"flight_type": "OW",
+								"currency": "EUR",
+								"end": "2015-01-16T00:00",
+								"_bx_version": "1.2",
+								"page": "search",
+								"fare_family": "JSS",
+								"youths": "0",
+								"students": "0",
+								"passengers": "1"
+							}
+						}
+					}
+				],
+				"sessions": [
+					{
+						"index": 0,
+						"ref": "d337c44a-ab77-55d4-99c5-904dd50074a4",
+						"type": "EMAIL",
+						"status": "OPEN",
+						"pos": {
+							"language": "en"
+						},
+						"duration": 0,
+						"channel": "EMAIL",
+						"start": 1670247681867,
+						"end": 1670247681867,
+						"totalViews": 0,
+						"totalSearches": 0,
+						"totalSelects": 0,
+						"totalAdds": 0,
+						"totalPayments": 0,
+						"totalConfirms": 0,
+						"totalCheckouts": 0,
+						"guestIdentified": false,
+						"interactions": [
+							{
+								"type": "TRACKING",
+								"date": 1670247681858
+							}
+						],
+						"searches": [],
+						"attributes": {
+							"browserRef": null
+						},
+						"arbitraryData": {
+							"values": {
+								"browserRef": null
+							}
+						},
+						"abandoned": false,
+						"open": true
+					},
+					{
+						"index": 1,
+						"ref": "4a3b0f9a-9782-592a-9f13-b89f3bddd5c3",
+						"type": "EMAIL",
+						"status": "OPEN",
+						"pos": {
+							"language": "en"
+						},
+						"duration": 0,
+						"channel": "EMAIL",
+						"start": 1670247681795,
+						"end": 1670247681795,
+						"totalViews": 0,
+						"totalSearches": 0,
+						"totalSelects": 0,
+						"totalAdds": 0,
+						"totalPayments": 0,
+						"totalConfirms": 0,
+						"totalCheckouts": 0,
+						"guestIdentified": false,
+						"interactions": [
+							{
+								"type": "TRACKING",
+								"date": 1670247681713
+							}
+						],
+						"searches": [],
+						"attributes": {
+							"browserRef": null
+						},
+						"arbitraryData": {
+							"values": {
+								"browserRef": null
+							}
+						},
+						"abandoned": false,
+						"open": true
+					},
+					{
+						"index": 2,
+						"ref": "61326a23-4dce-5807-9adc-2d32d9b0a320",
+						"type": "EMAIL",
+						"status": "OPEN",
+						"pos": {
+							"language": "en"
+						},
+						"duration": 0,
+						"channel": "EMAIL",
+						"start": 1670247681476,
+						"end": 1670247681476,
+						"totalViews": 0,
+						"totalSearches": 0,
+						"totalSelects": 0,
+						"totalAdds": 0,
+						"totalPayments": 0,
+						"totalConfirms": 0,
+						"totalCheckouts": 0,
+						"guestIdentified": false,
+						"interactions": [
+							{
+								"type": "TRACKING",
+								"date": 1670247681278
+							}
+						],
+						"searches": [],
+						"attributes": {
+							"browserRef": null
+						},
+						"arbitraryData": {
+							"values": {
+								"browserRef": null
+							}
+						},
+						"abandoned": false,
+						"open": true
+					},
+					{
+						"index": 3,
+						"ref": "eaf45959-4256-5721-b1e9-d3f688b39b37",
+						"type": "EMAIL",
+						"status": "OPEN",
+						"pos": {
+							"language": "en"
+						},
+						"duration": 0,
+						"channel": "EMAIL",
+						"start": 1670247681416,
+						"end": 1670247681416,
+						"totalViews": 0,
+						"totalSearches": 0,
+						"totalSelects": 0,
+						"totalAdds": 0,
+						"totalPayments": 0,
+						"totalConfirms": 0,
+						"totalCheckouts": 0,
+						"guestIdentified": false,
+						"interactions": [
+							{
+								"type": "TRACKING",
+								"date": 1670247681043
+							}
+						],
+						"searches": [],
+						"attributes": {
+							"browserRef": null
+						},
+						"arbitraryData": {
+							"values": {
+								"browserRef": null
+							}
+						},
+						"abandoned": false,
+						"open": true
+					},
+					{
+						"index": 4,
+						"ref": "8f682fc0-f872-5f9d-a0a9-9eb575945b66",
+						"type": "EMAIL",
+						"status": "OPEN",
+						"pos": {
+							"language": "en"
+						},
+						"duration": 0,
+						"channel": "EMAIL",
+						"start": 1670247681401,
+						"end": 1670247681401,
+						"totalViews": 0,
+						"totalSearches": 0,
+						"totalSelects": 0,
+						"totalAdds": 0,
+						"totalPayments": 0,
+						"totalConfirms": 0,
+						"totalCheckouts": 0,
+						"guestIdentified": false,
+						"interactions": [
+							{
+								"type": "TRACKING",
+								"date": 1670247681252
+							}
+						],
+						"searches": [],
+						"attributes": {
+							"browserRef": null
+						},
+						"arbitraryData": {
+							"values": {
+								"browserRef": null
+							}
+						},
+						"abandoned": false,
+						"open": true
+					}
+				],
+				"orders": [
+					{
+						"duration": 14400000,
+						"start": 1670496060000,
+						"end": 1670510460000,
+						"products": [
+							{
+								"ref": "c2b2dfe5-4669-4f42-b4c9-d46c51e69a67",
+								"name": "FRA to WAW",
+								"type": "FLIGHT",
+								"currency": "EUR",
+								"price": 0,
+								"language": "EN",
+								"sku": "FLIGHT",
+								"productId": "FLIGHT",
+								"subType": "RT",
+								"attributes": {
+									"passengers": "0",
+									"infants": "0",
+									"pax_type": "ADT",
+									"reference_id": "1284652",
+									"adults": "0",
+									"start": "2022-12-08T10:41",
+									"students": "0",
+									"youths": "0",
+									"valid": false,
+									"children": "0",
+									"flight_segment": [
+										{
+											"origin": {
+												"iata": "FRA",
+												"city": "Frankfurt",
+												"countryCode": "DE"
+											},
+											"destination": {
+												"iata": "WAW",
+												"city": "Warsaw",
+												"countryCode": "PL"
+											},
+											"segmentType": "DEPARTURE",
+											"departureTime": 1670496060000,
+											"arrivalTime": 1670510460000,
+											"fareClass": "Economy",
+											"carrier": "LH",
+											"attributes": {
+												"origin": "FRA",
+												"destination": "WAW",
+												"departure_date_time": "2022-12-08T10:41",
+												"arrival_date_time": "2022-12-08T14:41",
+												"flight_number": "123",
+												"carrier": "LH",
+												"f_class": "Economy"
+											},
+											"flightNumber": "123",
+											"flightClass": "Economy"
+										},
+										{
+											"origin": {
+												"iata": "WAW",
+												"city": "Warsaw",
+												"countryCode": "PL"
+											},
+											"destination": {
+												"iata": "FRA",
+												"city": "Frankfurt",
+												"countryCode": "DE"
+											},
+											"segmentType": "DEPARTURE",
+											"departureTime": 1670496060000,
+											"arrivalTime": 1670510460000,
+											"fareClass": "Economy",
+											"carrier": "LH",
+											"attributes": {
+												"origin": "WAW",
+												"destination": "FRA",
+												"departure_date_time": "2022-12-08T10:41",
+												"arrival_date_time": "2022-12-08T14:41",
+												"flight_number": "123",
+												"carrier": "LH",
+												"f_class": "Economy"
+											},
+											"flightNumber": "123",
+											"flightClass": "Economy"
+										}
+									],
+									"flight_type": "RT",
+									"end": "2022-12-08T14:41"
+								},
+								"productCatalog": [],
+								"origin": {
+									"iata": "FRA",
+									"city": "Frankfurt",
+									"countryCode": "DE"
+								},
+								"destination": {
+									"iata": "FRA",
+									"city": "Frankfurt",
+									"countryCode": "DE"
+								},
+								"adults": 0,
+								"children": 0,
+								"infants": 0,
+								"startDate": 1670496060000,
+								"endDate": 1670510460000,
+								"passengers": [],
+								"flightType": "RT",
+								"firstSegment": {
+									"origin": {
+										"iata": "FRA",
+										"city": "Frankfurt",
+										"countryCode": "DE"
+									},
+									"destination": {
+										"iata": "WAW",
+										"city": "Warsaw",
+										"countryCode": "PL"
+									},
+									"segmentType": "DEPARTURE",
+									"departureTime": 1670496060000,
+									"arrivalTime": 1670510460000,
+									"fareClass": "Economy",
+									"carrier": "LH",
+									"attributes": {
+										"origin": "FRA",
+										"destination": "WAW",
+										"departure_date_time": "2022-12-08T10:41",
+										"arrival_date_time": "2022-12-08T14:41",
+										"flight_number": "123",
+										"carrier": "LH",
+										"f_class": "Economy"
+									},
+									"flightNumber": "123",
+									"flightClass": "Economy"
+								},
+								"finalSegment": {
+									"origin": {
+										"iata": "WAW",
+										"city": "Warsaw",
+										"countryCode": "PL"
+									},
+									"destination": {
+										"iata": "FRA",
+										"city": "Frankfurt",
+										"countryCode": "DE"
+									},
+									"segmentType": "DEPARTURE",
+									"departureTime": 1670496060000,
+									"arrivalTime": 1670510460000,
+									"fareClass": "Economy",
+									"carrier": "LH",
+									"attributes": {
+										"origin": "WAW",
+										"destination": "FRA",
+										"departure_date_time": "2022-12-08T10:41",
+										"arrival_date_time": "2022-12-08T14:41",
+										"flight_number": "123",
+										"carrier": "LH",
+										"f_class": "Economy"
+									},
+									"flightNumber": "123",
+									"flightClass": "Economy"
+								},
+								"segments": [
+									{
+										"origin": {
+											"iata": "FRA",
+											"city": "Frankfurt",
+											"countryCode": "DE"
+										},
+										"destination": {
+											"iata": "WAW",
+											"city": "Warsaw",
+											"countryCode": "PL"
+										},
+										"segmentType": "DEPARTURE",
+										"departureTime": 1670496060000,
+										"arrivalTime": 1670510460000,
+										"fareClass": "Economy",
+										"carrier": "LH",
+										"attributes": {
+											"origin": "FRA",
+											"destination": "WAW",
+											"departure_date_time": "2022-12-08T10:41",
+											"arrival_date_time": "2022-12-08T14:41",
+											"flight_number": "123",
+											"carrier": "LH",
+											"f_class": "Economy"
+										},
+										"flightNumber": "123",
+										"flightClass": "Economy"
+									},
+									{
+										"origin": {
+											"iata": "WAW",
+											"city": "Warsaw",
+											"countryCode": "PL"
+										},
+										"destination": {
+											"iata": "FRA",
+											"city": "Frankfurt",
+											"countryCode": "DE"
+										},
+										"segmentType": "DEPARTURE",
+										"departureTime": 1670496060000,
+										"arrivalTime": 1670510460000,
+										"fareClass": "Economy",
+										"carrier": "LH",
+										"attributes": {
+											"origin": "WAW",
+											"destination": "FRA",
+											"departure_date_time": "2022-12-08T10:41",
+											"arrival_date_time": "2022-12-08T14:41",
+											"flight_number": "123",
+											"carrier": "LH",
+											"f_class": "Economy"
+										},
+										"flightNumber": "123",
+										"flightClass": "Economy"
+									}
+								],
+								"pointOfTurnaroundValid": false
+							}
+						],
+						"attributes": {},
+						"contact": {
+							"title": "Mr",
+							"firstName": "Joe",
+							"lastName": "Doe",
+							"email": "test@boxever.com",
+							"phoneNumber": "+353123456",
+							"guestRef": "398d5f30-8a2a-480a-9c14-ea3296618972"
+						},
+						"orderItems": [
+							{
+								"ref": "c2b2dfe5-4669-4f42-b4c9-d46c51e69a67",
+								"createdAt": 1670236918599,
+								"modifiedAt": 1670236918599,
+								"type": "FLIGHT",
+								"productId": "FLIGHT",
+								"price": 99,
+								"currencyCode": "EUR",
+								"referenceId": "1284652",
+								"status": "PURCHASED",
+								"language": "EN",
+								"name": "FRA to WAW",
+								"channel": "WEB",
+								"passengerTypeCode": "ADT",
+								"quantity": 1,
+								"flightType": "RT",
+								"transportSegments": [
+									{
+										"origin": {
+											"iata": "FRA",
+											"city": "Frankfurt",
+											"countryCode": "DE"
+										},
+										"destination": {
+											"iata": "WAW",
+											"city": "Warsaw",
+											"countryCode": "PL"
+										},
+										"departureTime": 1670496060000,
+										"arrivalTime": 1670510460000,
+										"fareClass": "Economy",
+										"carrier": "LH",
+										"attributes": {}
+									},
+									{
+										"origin": {
+											"iata": "WAW",
+											"city": "Warsaw",
+											"countryCode": "PL"
+										},
+										"destination": {
+											"iata": "FRA",
+											"city": "Frankfurt",
+											"countryCode": "DE"
+										},
+										"departureTime": 1670496060000,
+										"arrivalTime": 1670510460000,
+										"fareClass": "Economy",
+										"carrier": "LH",
+										"attributes": {}
+									}
+								]
+							}
+						],
+						"journey": {
+							"start": 1670496060000,
+							"end": 1670510460000,
+							"utcStart": 1670496060000,
+							"utcEnd": 1670510460000,
+							"type": "OW",
+							"origin": {
+								"code": "FRA",
+								"icao": "EDDF",
+								"name": "Frankfurt International",
+								"city": "Frankfurt",
+								"cityCode": "FRA",
+								"country": "Germany",
+								"countryCode": "DE",
+								"altitudeFeet": 364,
+								"timezone": "GMT"
+							},
+							"destination": {
+								"code": "WAW",
+								"icao": "EPWA",
+								"name": "Warsaw Frederic Chopin Airport",
+								"city": "Warsaw",
+								"cityCode": "WAW",
+								"country": "Poland",
+								"countryCode": "PL",
+								"altitudeFeet": 362,
+								"timezone": "GMT"
+							},
+							"duration": {
+								"minutes": 240,
+								"hours": 4,
+								"days": 0
+							},
+							"journeySegments": [
+								{
+									"origin": {
+										"code": "FRA",
+										"icao": "EDDF",
+										"name": "Frankfurt International",
+										"city": "Frankfurt",
+										"cityCode": "FRA",
+										"country": "Germany",
+										"countryCode": "DE",
+										"altitudeFeet": 364,
+										"timezone": "GMT"
+									},
+									"destination": {
+										"code": "WAW",
+										"icao": "EPWA",
+										"name": "Warsaw Frederic Chopin Airport",
+										"city": "Warsaw",
+										"cityCode": "WAW",
+										"country": "Poland",
+										"countryCode": "PL",
+										"altitudeFeet": 362,
+										"timezone": "GMT"
+									},
+									"start": 1670496060000,
+									"end": 1670510460000,
+									"utcStart": 1670496060000,
+									"utcEnd": 1670510460000,
+									"direction": "outbound",
+									"kilometers": 898,
+									"miles": 557,
+									"duration": {
+										"minutes": 240,
+										"hours": 4,
+										"days": 0
+									},
+									"flightNumber": "123",
+									"fareClass": "Economy",
+									"carrier": "LH",
+									"adults": 2,
+									"children": 0,
+									"infants": 0,
+									"infantsWithSeat": 0,
+									"unknownConsumers": 0,
+									"consumerTypeByItemId": {}
+								}
+							],
+							"firstSegment": {
+								"origin": {
+									"code": "FRA",
+									"icao": "EDDF",
+									"name": "Frankfurt International",
+									"city": "Frankfurt",
+									"cityCode": "FRA",
+									"country": "Germany",
+									"countryCode": "DE",
+									"altitudeFeet": 364,
+									"timezone": "GMT"
+								},
+								"destination": {
+									"code": "WAW",
+									"icao": "EPWA",
+									"name": "Warsaw Frederic Chopin Airport",
+									"city": "Warsaw",
+									"cityCode": "WAW",
+									"country": "Poland",
+									"countryCode": "PL",
+									"altitudeFeet": 362,
+									"timezone": "GMT"
+								},
+								"start": 1670496060000,
+								"end": 1670510460000,
+								"utcStart": 1670496060000,
+								"utcEnd": 1670510460000,
+								"direction": "outbound",
+								"kilometers": 898,
+								"miles": 557,
+								"duration": {
+									"minutes": 240,
+									"hours": 4,
+									"days": 0
+								},
+								"flightNumber": "123",
+								"fareClass": "Economy",
+								"carrier": "LH",
+								"adults": 2,
+								"children": 0,
+								"infants": 0,
+								"infantsWithSeat": 0,
+								"unknownConsumers": 0,
+								"consumerTypeByItemId": {}
+							},
+							"finalSegment": {
+								"origin": {
+									"code": "FRA",
+									"icao": "EDDF",
+									"name": "Frankfurt International",
+									"city": "Frankfurt",
+									"cityCode": "FRA",
+									"country": "Germany",
+									"countryCode": "DE",
+									"altitudeFeet": 364,
+									"timezone": "GMT"
+								},
+								"destination": {
+									"code": "WAW",
+									"icao": "EPWA",
+									"name": "Warsaw Frederic Chopin Airport",
+									"city": "Warsaw",
+									"cityCode": "WAW",
+									"country": "Poland",
+									"countryCode": "PL",
+									"altitudeFeet": 362,
+									"timezone": "GMT"
+								},
+								"start": 1670496060000,
+								"end": 1670510460000,
+								"utcStart": 1670496060000,
+								"utcEnd": 1670510460000,
+								"direction": "outbound",
+								"kilometers": 898,
+								"miles": 557,
+								"duration": {
+									"minutes": 240,
+									"hours": 4,
+									"days": 0
+								},
+								"flightNumber": "123",
+								"fareClass": "Economy",
+								"carrier": "LH",
+								"adults": 2,
+								"children": 0,
+								"infants": 0,
+								"infantsWithSeat": 0,
+								"unknownConsumers": 0,
+								"consumerTypeByItemId": {}
+							},
+							"counts": {
+								"numberOfConsumers": 2,
+								"numberOfAdults": 2,
+								"numberOfChildren": 0,
+								"numberOfInfants": 0,
+								"numberOfInfantsWithSeats": 0,
+								"numberOfDependentItems": 0,
+								"numberOfFlights": 1,
+								"numberOfUnknownTypeConsumers": 0
+							}
+						},
+						"channel": "WEB",
+						"currency": "EUR",
+						"value": 0,
+						"pos": {
+							"language": "en",
+							"name": "spinair.com",
+							"market": "Airline",
+							"brand": "SpinAir",
+							"timeoutInMinutes": 1
+						},
+						"created": 1670236918588,
+						"status": "PURCHASED",
+						"remoteRef": "1284652",
+						"dataExtensions": [],
+						"index": 0,
+						"finish": 1670510460000,
+						"empty": false
+					}
+				],
+				"segments": [],
+				"guestSubscriptions": [],
+				"guestIdentifiers": [
+					{
+						"provider": "mySpinAirId",
+						"id": "test@boxever.com"
+					}
+				],
+				"recentSearches": [
+					{
+						"type": "SEARCH",
+						"product": {
+							"name": "FRA|WAW",
+							"type": "FLIGHT",
+							"language": "EN",
+							"created": 1670262671450,
+							"subType": "OW",
+							"attributes": {
+								"f_class": "Economy",
+								"infants": "0",
+								"origin": "FRA",
+								"adults": "1",
+								"destination": "WAW",
+								"start": "2015-01-15T00:00",
+								"language": "EN",
+								"product_name": "FRA|WAW",
+								"createdAt": "2022-12-05T10:41:33.216Z",
+								"product_type": "FLIGHT",
+								"children": "0",
+								"flight_type": "OW",
+								"currency": "EUR",
+								"end": "2015-01-16T00:00",
+								"_bx_version": "1.2",
+								"page": "search",
+								"fare_family": "JSS",
+								"youths": "0",
+								"students": "0",
+								"passengers": "1"
+							},
+							"productCatalog": [],
+							"origin": {
+								"iata": "FRA",
+								"city": "Frankfurt",
+								"countryCode": "DE"
+							},
+							"destination": {
+								"iata": "WAW",
+								"city": "Warsaw",
+								"countryCode": "PL"
+							},
+							"adults": 1,
+							"children": 0,
+							"infants": 0,
+							"startDate": 1421280000000,
+							"endDate": 1421366400000,
+							"fareClass": "Economy",
+							"passengers": [],
+							"flightType": "OW",
+							"segments": [],
+							"pointOfTurnaroundValid": false
+						},
+						"date": 1670236893216
+					}
+				],
+				"dataExtensions": [
+					{
+						"ref": "44923878-0d36-5713-a306-7347d9594840",
+						"key": "default",
+						"name": "LastFiveSearches",
+						"createdAt": 1670262666514,
+						"modifiedAt": 1670262666514,
+						"values": {
+							"searches": [
+								{
+									"f_class": "Economy",
+									"infants": "0",
+									"origin": "FRA",
+									"adults": "1",
+									"destination": "WAW",
+									"start": "2015-01-15T00:00",
+									"language": "EN",
+									"product_name": "FRA|WAW",
+									"createdAt": "2022-12-05T10:41:33.216Z",
+									"product_type": "FLIGHT",
+									"children": "0",
+									"flight_type": "OW",
+									"currency": "EUR",
+									"end": "2015-01-16T00:00",
+									"_bx_version": "1.2",
+									"page": "search",
+									"fare_family": "JSS",
+									"youths": "0",
+									"students": "0",
+									"passengers": "1"
+								}
+							]
+						}
+					}
+				],
+				"attributes": {},
+				"trackedOffers": [],
+				"pageViews": [],
+				"fullName": "Mr Joe Doe"
+			},
+			"segment": {
+				"ref": "1655b5bb-9e5b-4d31-be99-1027b4b29e2c"
+			},
+			"clientKey": "pqsPERS3lw12v5a9rrHPW1c4hET73GxQ"
+		},
+		"rulesOutputContext": {
+			"success": true,
+			"values": [],
+			"updatedAttributes": {},
+			"successfulRules": [],
+			"failedRules": [],
+			"flowRef": "e8bebad8-6068-49ad-9ab5-b6fe92fe085a",
+			"decisionContext": {}
+		}
+	}
+}

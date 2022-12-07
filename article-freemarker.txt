@@ -1,0 +1,23 @@
+{
+    "tenant": "my-airplane-company",
+    "userId": "${guest.email}",
+    <#if (guest.searches) ??>
+    "hasSearches": true,
+    "searches" :[
+    <#list guest.searches as search>
+       {   
+           <#if (search.arbitraryData) ??>
+                "product_type": ${search.arbitraryData.values.product_type},
+                "page": ${search.arbitraryData.values.page},
+                "start": ${search.arbitraryData.values.start},
+           </#if>
+           "origin" : "${search.origin}",
+           "destination" : "${search.destination}",
+           "numberOfAdults": "${search.numberOfAdults}",
+           "numberOfInfants": "${search.numberOfInfants}",
+      },
+    </#list>
+    ],
+    </#if>
+    "sync": true
+}

@@ -1,0 +1,86 @@
+--- abandoned cart:
+
+{
+	"Messages": [
+		{
+			"From": {
+				"Email": "atomczonek@sygnity.pl",
+				"Name": "MailjetCDP Email"
+			},
+			"To": [
+				{
+					"Email": "${guest.email}",
+					"Name": "${guest.firstName} ${guest.lastName}"
+				}
+			],
+			
+			"Subject": "Uuupps, you have left something in the cart",
+			<#assign Cart = getDecisionModelResultNode("Get Abandoned Cart Details")>
+			"TextPart": "Dear ${guest.firstName} ${guest.lastName}, Your cart has been left at ${Cart.outputs[0].cartDetails.sessionTime}. Items left in the cart: <#list Cart.outputs[0].cartDetails.products as k,v>Product no. ${k}: ${v.type} - ${v.price} ${v.currency},</#list>",
+			"HTMLPart": "<h3>Dear ${guest.firstName} ${guest.lastName}</h3><br>Your cart has been left at ${Cart.outputs[0].cartDetails.sessionTime}.<br>Items left in the cart: <#list Cart.outputs[0].cartDetails.products as k,v><span>Product no. ${k}: ${v.type} - ${v.price} ${v.currency}<br></span></#list>"
+
+		}
+		]
+}
+
+
+--- sessionData
+
+<#if (decisionModelResults.decisionModelResultNodes)??>
+    <#list decisionModelResults.decisionModelResultNodes as result>
+        <#if result.name == "GetSessionData">
+            <#list result.outputs as output>
+                <#list output as outputName, outputValue>
+                    <#if outputName == "sessionData">
+                        <#global sessionData = outputValue>
+                    </#if>
+                </#list>
+            </#list>
+        </#if>
+    </#list>
+</#if>
+
+{
+  "Messages": [
+    {
+      "From": {
+        "Email": "marta.imosmerska@unic.com",
+        "Name": "CDP Marta's Art Supplies"
+      },
+      "To": [
+        {
+          "Email": "marta.imosmerska@unic.com", <#--"${guest.email}",-->
+          "Name": "${guest.firstName} ${guest.lastName}"
+        }
+      ],
+      "Subject": "Marta's CDP Mail",
+      "TextPart": "Interested in completing your purchase for ${sessionData.email} from ${sessionData.sessionAbandoned}?",
+      "HTMLPart": "<h2>Hello ${guest.firstName} ${guest.lastName}!</h2>Interested in completing your purchase for ${sessionData.email} from ${sessionData.sessionAbandoned}?<br/>Here are the items from your cart:<br/><#if sessionData.products??><ul><#list sessionData.products as index,product><li>${product.type}: ${product.name} for ${product.price} ${product.currency}</li></#list></ul></#if>"
+    }
+  ]
+}
+
+--- cart items:
+
+<#assign cartItems = getDecisionModelResultNode("GetCartItems")>
+{
+  "Messages": [
+    {
+      "From": {
+        "Email": "chirag.khanna28@gmail.com",
+        "Name": "Me"
+      },
+      "To": [
+        {
+          "Email": "chirag.khanna28@gmail.com",
+          "Name": "You"
+        }
+      ],
+      "Subject": "My first Mailjet Email!",
+      "TextPart": "Greetings from Mailjet!",
+      "HTMLPart": "${cartItems.outputs[0].getcartitems}"
+    }
+  ]
+}
+
+---
